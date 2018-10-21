@@ -1,0 +1,244 @@
+body {
+	color:blue
+}
+
+/*contenedores de nivel-1*/
+header{
+	margin-bottom: .6em;
+	padding-bottom: .4em;
+	border-bottom: .5em solid darkblue;
+	vertical-align: bottom;
+}
+
+nav{
+	clear:both;
+	font-size:large;
+}
+
+
+footer{
+	margin-top: .5em;
+	border-top: .5em solid darkblue;
+	text-align: center;
+}
+header img{
+	float: left
+}
+
+/*estilo de grid*/
+/*colocacion de datos del grid*/
+/*alinear datos a la izquierda y botonera a la derecha*/
+div.fila_cliente,div.fila_evento,div.fila_curso{
+	clear: both;
+	color:#ffffff;
+}
+div.datos_cliente{
+	float:left
+}
+div.datos_evento{
+	float: left
+}
+div.datos_curso{
+	float: left
+}
+div.nombre{
+	float: left
+}
+div.nickname{
+	float: left
+}
+div.dni{
+	float: left;
+}
+div.OID_CU,div.FECHAINICIO,div.FECHAFIN,div.CURSO,div.LLENO{
+	float: left;
+}
+
+
+div.NUMIDENT,div.nombre,div.precio,div.lugar,div.fecha{
+	float: left;
+}
+input.NOMBREE,input.PRECIO,input.LUGAR,input.FECHA{
+	float: left;
+}
+/*dimensionar y dar apariencia tabulada*/
+div.nickname,div.nombre,div.dni,div.NUMIDENT, div.nombre,div.precio,div.lugar,div.fecha,div.OID_CU,div.FECHAINICIO,div.FECHAFIN,div.CURSO,div.LLENO{
+	margin:0.05em;
+	padding: 5px;
+	background-color: #82b74b;
+	border-radius: .3em
+}
+div.OID_CU,div.LLENO{
+	width: 100px;
+	margin:0.05em;
+	padding: 5px;
+	background-color: #82b74b;
+	border-radius: .3em;
+	text-align: center;
+}
+div.FECHAINICIO,div.FECHAFIN,div.CURSO{
+	width: 250px;
+	margin:0.05em;
+	padding: 5px;
+	background-color: #82b74b;
+	border-radius: .3em;
+	text-align: center;
+}
+
+
+div.dni, div.nombre,div.lugar,div.fecha{
+	width: 200px
+}
+div.nombre{
+	width: 300px;
+}
+input#NOMBREE{
+	width: 300px;
+	background-color: #36486b;
+	color: #82b74b;
+	margin: 0.05em;
+	padding: 5px;
+	border-radius: .3em;
+	float:left
+}
+input#LUGAR,input#FECHA{
+	width: 200px;
+	background-color: #36486b;
+	color: #82b74b;
+	margin: 0.05em;
+	padding: 5px;
+	border-radius: .3em;
+	float:left
+}
+input#PRECIO{
+	width: 50px;
+	background-color: #36486b;
+	color: #82b74b;
+	margin: 0.05em;
+	padding: 5px;
+	border-radius: .3em;
+	float:left
+}
+div.nickname{
+	width: 400px
+}
+div.NUMIDENT,div.precio{
+	width: 100px;
+	float:left;
+}
+input.nombre{
+	float:left
+}
+/*formatear input del titulo*/
+input#NICKNAME{
+	width: 400px;
+	background-color: #36486b;
+	color: #82b74b;
+	margin: 0;
+	padding: 5px;
+	border-radius: .3em;
+}
+
+/*estilo de la botonera*/
+
+div#botones_fila button{
+	background-color: transparent;
+	border: 4px solid transparent;
+	border-radius:1em;
+
+}
+div#botones_fila button:hover{
+	border: 3px dotted #36486b
+}
+/*estilocabecera de paginacion grid*/
+div#enlaces{
+	margin: 0 0 1em 0;
+	float: left
+}
+nav form {
+	float:left;
+	margin-left: 2em
+}
+div#enlaces:before{
+	content: 'Ir a la pagina:'
+}
+div#enlaces a:link,div#enlaces a:visited{
+	text-decoration: none;
+	background-color:#82b74b;
+	color:#36486b;
+	padding: .2em;
+	border-radius: .3em 
+}
+div#enlaces span.current{
+	text-decoration: none;
+	background-color:#36486b;
+	color:#82b74b;
+	padding: .2em;
+	border-radius: .3em 
+}
+nav input#PAG_TAM, nav input[type=submit]{
+	width: 7em;
+	color:black;
+	font-weight:600;
+	background-color:#feb236;
+	border-radius: .5em;
+	text-align: center
+	
+}
+div>p.numident{
+	float:left;
+	margin-right: 35px;
+	margin-left: 5px;
+
+	font-family: "Comic Sans MS";
+	color: #FF0000;
+}
+div>p.nom{
+	float:left;
+	margin-right: 155px;
+		font-family: "Comic Sans MS";
+			color: #FF0000;
+
+
+}
+div>p.pre{
+	float:left;
+	margin-right: 40px;
+		font-family: "Comic Sans MS";
+			color: #FF0000;
+
+
+}
+div>p.lug{
+	float:left;
+	margin-right: 150px;
+		font-family: "Comic Sans MS";
+			color: #FF0000;
+
+
+}
+div>p.d{
+	float:left;
+	margin-right: 200px;
+	margin-left: 10px;
+
+		font-family: "Comic Sans MS";
+			color: #FF0000;
+
+
+}
+div>p.fei,p.fef{
+	float:left;
+	margin-right: 150px;
+	margin-left: 10px;
+	font-family: "Comic Sans MS";
+	color: #FF0000;
+}
+
+div>p.cur,p.lle{
+	float:left;
+	margin-right: 100px;
+	margin-left: 10px;
+	font-family: "Comic Sans MS";
+	color: #FF0000;
+}

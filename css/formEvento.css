@@ -1,0 +1,63 @@
+div.error{
+	background-color: red;
+}
+
+div.formEvento{
+    display: none;  /*Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+    padding-top: 100px;
+}
+
+/* Modal Content/Box */
+.contenidoform{
+    background-color: #b5e7a0;
+    margin: 50px auto; /* 15% from the top and centered */
+    border: 3px solid black;
+    width: 70%; /* Could be more or less, depending on screen size */
+}
+.contenidoAlta{
+	background-color: yellow;
+    margin: 50px auto; /* 15% from the top and centered */
+    border: 3px solid black;
+    width: 86%;
+}
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+input#nombre,input#precio,input#lugar,input#fecha{ 
+	margin:0.4em;
+	font-family: "Comic Sans MS";
+}
+div>input#nickname{
+	margin:0.4em;
+	font-family: "Comic Sans MS";
+}
+form.contenidoform{
+	color:darkblue;
+}
+div>input#boton_registrarse{
+	float:left;
+}
+

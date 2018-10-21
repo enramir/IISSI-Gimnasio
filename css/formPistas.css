@@ -1,0 +1,55 @@
+div.error{
+	text-align: center;
+	color: red;
+}
+
+/* Modal Content/Box */
+.contenidoform{
+    background-color: #b5e7a0;
+    margin: 50px auto; /* 15% from the top and centered */
+    border: 3px solid black;
+    width: 50%; /* Could be more or less, depending on screen size */
+   	color:darkblue;
+
+}
+.contenidoAlta{
+	background-color: #b5e7a0;
+    margin: 50px auto; /* 15% from the top and centered */
+    border: 3px solid black;
+    width: 86%;
+   	color:darkblue;
+
+}
+
+
+div h4{
+	color :black;
+	text-decoration:underline
+}
+
+input#boton_registrarse{
+	float: left;
+
+}
+form p{
+	color:black
+	font: x-large; 
+}
+form.contenidoAlta{
+	color:darkblue;
+}
+input#fechaInicio,input#fechaFin,select#curso,input#numpista,input#precio,select#pista{
+	margin:0.4em;
+	font-family: "Comic Sans MS";
+}
+
+input#dni,input#nombre,input#apellidos,input#fechaNacimiento,input#telefono,input#direccion,input#email,input#nick,input#pass,input#confirmpass{
+	margin:0.4em;
+	font-family: "Comic Sans MS";
+}
+
+div>p#p1{
+	
+	color:#0000FF;
+}
+

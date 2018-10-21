@@ -1,0 +1,15 @@
+.p1{
+	float: left
+}
+#boton_registrarse{
+	float:left
+}
+body{
+	background-color: lightblue;
+}
+div.error ,div.excepcion{
+	color: red;	
+	border: 2px solid red;
+	padding: 10px;
+	margin: 10px;
+}
